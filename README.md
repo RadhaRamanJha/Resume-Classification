@@ -15,15 +15,16 @@ The goal of this project is to reduce manual human effort in the recruitment pro
 * **Data Cleaning**  
     * Removed whitespace, converted text to lowercase, and performed tokenization to break a stream of text in smaller managable units called **tokens**.  
     * Applied stemming and lemmatization for word conversion in it's root form.  
-    * Removed stop words (e.g., “is”, “are”, “we”).  
-    * Performed Part-of-Speech tagging.  
+    * Removed stop words (e.g., “is”, “are”, “we”). 
     * Cleaned data stored separately as `clean_resumes.csv`.
 
 * **Exploratory Data Analysis (EDA)**  
     * **TF-IDF**(Term frequency - Inverse document frequency) analysis was conducted to identify the importance of words in the document.  
     * Word frequency plots and n-gram (bi/tri-gram i.e. words formed taking two and three words at a time respectively) visualizations created for each category.  
     * **Word clouds** charts was generated to highlight key terms by category.
-
+ 
+* **Feature Engineering**
+   * Performed Part-of-Speech tagging. 
 * **Model Building**  
 Dataset was split: 75% training and 25% testing  
 Applied classifiers:  
